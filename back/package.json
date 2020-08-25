@@ -1,0 +1,30 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "back-end",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "concurrently \"npm run start\" \"npm --prefix ../front run start\" "
+  },
+  "author": "amir",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.3.0",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.16",
+    "mongoose-timestamp": "^0.6.0",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
+    "restify": "^8.5.1",
+    "restify-errors": "^8.0.2",
+    "restify-jwt-community": "^1.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
